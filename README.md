@@ -17,25 +17,27 @@ This project is a React application scaffolded with Vite, a fast and opinionated
     npm run dev
 
    ## Project Structure
-    .
-    ├── public/                  # Public assets and HTML template
-    ├── src/                     # React source code
-    │   ├── components/          # React components
-    │   ├── utils/               # Utility functions, hooks, and constants
-    │   ├── App.jsx              # Main application component
-    │   ├── index.jsx            # Entry point for React application
-    |   ├── assets/              # Images and other assets
-    |   ├── hooks/               # Custom global hooks 
-    ├── .gitignore               # Git ignore file
-    ├── package.json             # Node.js dependencies and scripts
-    ├── vite.config.js           # Vite configuration file
-    ├── README.md                # Project documentation
+       .
+      ├── public/                  # Public assets and HTML template
+      ├── src/                     # React source code
+      │   ├── components/          # React components
+      │   ├── utils/               # Utility functions, hooks, and constants
+      │   ├── App.jsx              # Main application component
+      │   ├── index.jsx            # Entry point for React application
+      │   ├── assets/              # Images and other assets
+      │   ├── hooks/               # Custom global hooks 
+      ├── .gitignore               # Git ignore file
+      ├── package.json             # Node.js dependencies and scripts
+      ├── vite.config.js           # Vite configuration file
+      ├── README.md                # Project documentation
+
 
 # Custom Debouncing Hook
 
 ### In this project, we have implemented a custom debouncing hook named useDebounce to efficiently handle search input changes. The hook can be found in the src/utils/helpers.js file.
 
-`import React, { useState } from 'react';
+<pre>
+import React, { useState } from 'react';
 import { useDebounce } from '../utils/helpers';
 
 const SearchComponent = () => {
@@ -45,7 +47,10 @@ const SearchComponent = () => {
   const debouncedSearchValue = useDebounce(searchValue, 300);
 
   // Rest of your component logic...
-};`
+};
+
+export default SearchComponent;
+</pre>
 
 ## Additional Information
 
