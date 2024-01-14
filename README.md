@@ -56,3 +56,11 @@ export default SearchComponent;
 
     Vite Documentation - https://vitejs.dev/
     React Documentation - https://react.dev
+
+## Sample Snapshots
+
+![image](https://github.com/akashbhadouria/react-debounce/assets/25353461/677e1c07-7660-42be-8f3b-36793355f6b1)
+
+![image](https://github.com/akashbhadouria/react-debounce/assets/25353461/7a5dfdf5-47a1-4ef4-a496-6e2f267b18bb)
+
+
