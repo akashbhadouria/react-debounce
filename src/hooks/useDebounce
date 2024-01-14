@@ -1,0 +1,19 @@
+import { useEffect, useState, useRef } from 'react'
+
+export const useDebounce = (searchValue, debounceTime) => {
+  const [debouncedSearchValue, setDebouncedSearchValue] = useState('')
+  const timerId = useRef(null)
+
+  useEffect(() => {
+    if (timerId.current) {
+      clearTimeout(timerId.current)
+    }
+    timerId.current = setTimeout(() => {
+      setDebouncedSearchValue(searchValue)
+    }, debounceTime)
+
+    return () => clearTimeout(timerId.current)
+  }, [searchValue])
+
+  return debouncedSearchValue
+}
