@@ -61,6 +61,7 @@ export default SearchComponent;
 
 ![image](https://github.com/akashbhadouria/react-debounce/assets/25353461/677e1c07-7660-42be-8f3b-36793355f6b1)
 
-![image](https://github.com/akashbhadouria/react-debounce/assets/25353461/7a5dfdf5-47a1-4ef4-a496-6e2f267b18bb)
+![image](https://github.com/akashbhadouria/react-debounce/assets/25353461/fdc74422-272f-41a0-becf-ad5e2f576b3e)
+
 
 
