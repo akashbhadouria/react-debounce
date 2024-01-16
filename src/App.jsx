@@ -1,10 +1,12 @@
+import Pagination from '../views/Pagination/Pagination'
 import './App.css'
 import SearchComponents from './components/SearchComponent'
 
 function App() {
   return (
     <>
-      <SearchComponents />
+      {/* <SearchComponents /> */}
+      <Pagination paginationLimit={5} />
     </>
   )
 }
