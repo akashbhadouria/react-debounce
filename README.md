@@ -64,4 +64,9 @@ export default SearchComponent;
 ![image](https://github.com/akashbhadouria/react-debounce/assets/25353461/fdc74422-272f-41a0-becf-ad5e2f576b3e)
 
 
+Pagination View
+![image](https://github.com/akashbhadouria/react-debounce/assets/25353461/c4bf1b14-9f25-4eee-afbe-a41a8af76af4)
+
+
+
 
